@@ -12,6 +12,8 @@ export const action = async ({ request }) => {
     const response = await customFetch.post("/email", data, {
       headers: {
         "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": true,
       },
     });
     toast.success("Message sent successfully!");
