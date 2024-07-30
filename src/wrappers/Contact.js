@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
   margin-top: 3rem;
   h2 {
+    max-width: 400px;
+    margin: 0 auto;
     margin-bottom: 2rem;
     text-transform: uppercase;
     text-align: center;
