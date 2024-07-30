@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* COLORS */
+  --primary: #d9ca59;
+  --secondary: #3b5741;
+  --gray-100: #e7e7f3;
+  --gray-200: #e3e3f0;
+  --gray-300: #dedeee;
+  --gray-400: #d9d9eb;
+  --gray-500: #d0d0e6;
+  --gray-600: #b5b5c8;
+  --gray-700: #9a9aab;
+  --gray-800: #80808e;
+  --gray-900: #676773;
+  --white: #fff;
+  --black: #000;
+
+  --main-bg-color: var(--white);
+  --primary-color: var(--secondary);
+  --text-color: var(--black);
+  --about-card-bg-color: var(--gray-300);
+
+  --dark-main-bg-color: var(--black);
+  --dark-primary-color: var(--primary);
+  --dark-text-color: var(--white);
+  --dark-about-card-bg-color: var(--gray-800);
+
+  --letter-spacing: 2px;
+  --border-radius: 0.5rem;
+  --transition: all 0.3s linear;
+  --shadow-1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --shadow-2: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --shadow-3: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --dark-shadow-1: rgba(252, 246, 246, 0.24) 0px 1px 8px 4px;
+  --dark-shadow-2: rgba(247, 247, 250, 0.25) 0px 0px 10px 5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --dark-shadow-3: rgba(247, 239, 239, 0.25) 0px 0px 14px 6px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+body {
+  font-family: "Red Hat Text";
+  background: var(--main-bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+}
+.dark-theme {
+  --main-bg-color: var(--dark-main-bg-color);
+  --primary-color: var(--dark-primary-color);
+  --text-color: var(--dark-text-color);
+  --about-card-bg-color: var(--dark-about-card-bg-color);
+
+  --shadow-1: var(--dark-shadow-1);
+  --shadow-2: var(--dark-shadow-2);
+  --shadow-3: var(--dark-shadow-3);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+  font-family: "Archivo Black";
+}
+input,
+textarea {
+  font-family: "Red Hat Text";
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+@media (width>768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.75rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+}

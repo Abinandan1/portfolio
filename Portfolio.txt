@@ -1,0 +1,9 @@
+Homepage
+  --Common - Logo, Social Links,Navbar
+  --Outlet
+      --Landing: Small Intro (Heading and Description)
+      --Skills: List of Skills
+      --About: Description	
+      --Projects: All projects(Single + Frontend Mentor ones)
+      --Certifications/Courses: All udemy certifications
+      --Contact: Contact Form    

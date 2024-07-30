@@ -1,0 +1,12 @@
+export { default as About } from "./About";
+export { default as Contact } from "./Contact";
+export { default as Courses } from "./Courses";
+export { default as Home } from "./Home";
+export { default as Landing } from "./Landing";
+export { default as Projects } from "./Projects";
+export { default as Project } from "./Project";
+export { default as Skills } from "./Skills";
+export { default as SocialIcons } from "./SocialIcons";
+export { default as Logo } from "./Logo";
+export { default as Navbar } from "./Navbar";
+export { default as FrontendMentorChallenges } from "./FrontendMentorChallenges";
