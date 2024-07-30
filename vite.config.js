@@ -9,7 +9,6 @@ export default defineConfig({
       "/api": {
         target: "https://send-email-1s1x.onrender.com/api",
         changeOrigin: true,
-        secure: false,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
