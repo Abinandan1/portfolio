@@ -12,24 +12,24 @@ const Navbar = () => {
   return (
     <Wrapper>
       <div className="menu-center">
-        <a href="/" className="nav-icon">
+        <Link to="/" className="nav-icon">
           <TbHomeFilled />
-        </a>
-        <a href="/about" className="nav-icon">
+        </Link>
+        <Link to="/about" className="nav-icon">
           <TbInfoSquareFilled />
-        </a>
-        <a href="/skills" className="nav-icon">
+        </Link>
+        <Link to="/skills" className="nav-icon">
           <GiSmart />
-        </a>
-        <a href="/projects" className="nav-icon">
+        </Link>
+        <Link to="/projects" className="nav-icon">
           <TbBriefcaseFilled />
-        </a>
-        <a href="/courses" className="nav-icon">
+        </Link>
+        <Link to="/courses" className="nav-icon">
           <PiCertificateFill />
-        </a>
-        <a href="/contact" className="nav-icon">
+        </Link>
+        <Link to="/contact" className="nav-icon">
           <TbUserFilled />
-        </a>
+        </Link>
       </div>
     </Wrapper>
   );
