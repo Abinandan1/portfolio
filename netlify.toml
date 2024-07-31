@@ -3,4 +3,4 @@
   to = "https://send-email-1s1x.onrender.com/api"
   status = 200
   force = true
-  signed = process.env.API_SIGNATURE_TOKEN
+  signed = exrS2gAsk8QPVIoEbOwlepjIfG_LqC67UFV1UwDvjqU
