@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Wrapper } from "../wrappers/Landing";
 
 const Landing = () => {
@@ -16,9 +17,9 @@ const Landing = () => {
         adapt to situations are my key strengths. I constantly update myself
         with the latest web development trends and technologies to ensure that
         my work is always cutting-edge. Check out{" "}
-        <a href="/projects" className="highlight">
+        <Link to="/projects" className="highlight">
           Projects Section{" "}
-        </a>
+        </Link>
         for some cool projects!
       </p>
     </Wrapper>
