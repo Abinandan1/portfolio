@@ -1,7 +1,6 @@
 [[redirects]]
-  from = "/api"
+ from = "/api"
   to = "https://send-email-1s1x.onrender.com/api"
-  status = 201
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+  force = true
+  signed = process.env.API_SIGNATURE_TOKEN
