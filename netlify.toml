@@ -1,6 +1,5 @@
 [[redirects]]
- from = "/api"
-  to = "https://send-email-1s1x.onrender.com/api"
-  status = 200
+  from = "https://comforting-peony-4977ec.netlify.app/api/v1/email"
+  to = "https://send-email-1s1x.onrender.com/api/v1/email"
+  status = 201
   force = true
-  signed = "exrS2gAsk8QPVIoEbOwlepjIfG_LqC67UFV1UwDvjqU"
