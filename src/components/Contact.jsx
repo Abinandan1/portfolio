@@ -9,13 +9,7 @@ export const action = async ({ request }) => {
   const data = Object.fromEntries(formData);
   console.log(data);
   try {
-    const response = await customFetch.post("/email", data, {
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "*",
-        "Access-Control-Allow-Headers": true,
-      },
-    });
+    const response = await customFetch.post("/email", data);
     toast.success("Message sent successfully!");
   } catch (error) {
     toast.error(error?.response?.data?.msg);
