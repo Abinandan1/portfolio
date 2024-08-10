@@ -5,6 +5,7 @@ import { Wrapper } from "../wrappers/Project";
 import { useState } from "react";
 const Project = ({ image, name, site, code, special, about }) => {
   const [flipped, setFlipped] = useState(false);
+
   return (
     <Wrapper className="project">
       <div className="img-container">
