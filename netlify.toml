@@ -3,3 +3,4 @@
   to = "https://send-email-1s1x.onrender.com/api/v1/email"
   status = 201
   force = true
+  headers = {X-From = "Netlify"}
