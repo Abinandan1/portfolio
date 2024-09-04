@@ -3,13 +3,17 @@ import { Wrapper } from "../wrappers/Contact";
 import { customFetch } from "../utils/customFetch";
 import { toast } from "react-toastify";
 import Loading from "./Loading";
+import axios from "axios";
 
 export const action = async ({ request }) => {
   const formData = await request.formData();
   const data = Object.fromEntries(formData);
   console.log(data);
   try {
-    const response = await customFetch.post("/email", data);
+    const response = await axios.post(
+      "https://send-email-1s1x.onrender.com/api/v1/email",
+      data
+    );
     toast.success("Message sent successfully!");
   } catch (error) {
     toast.error(error?.response?.data?.msg);
